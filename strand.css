@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('rnshs.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:transparent;
+    backdrop-filter: blur(5px);
+    font-size:larger;
+    color: white;
+}
+.leftside{
+    display: inline-block;
+    border: 1px solid rgb(78, 78, 78);
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-top: 180px;
+    cursor: pointer;
+}
+.leftside .description{
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+.leftside:hover{
+    border: 3px solid black;
+}
+.leftside img{
+    width: 100%;
+    height: auto;
+}
+.navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.navigation a:hover, 
+.navigation a.active {
+    background:#003329;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px 15px;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#004b3c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content a:hover {background-color:#00725b;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#003329;}
+   .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

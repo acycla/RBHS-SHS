@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('rnshs.jpg');
+    background-position: center;
+  }
+  
+  header {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 3px 0.5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background:transparent;
+        font-size:larger;
+  }
+  
+  .logo {
+    max-width: 130px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgb(157, 158, 158);
+    border: 2.5px solid black;
+    border-radius: 5px;
+  }
+  
+  .mission-section, .values-section {
+    margin-bottom: 30px;
+  }
+  
+  .values-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values-section li {
+    margin-bottom: 10px;
+  }
+  .navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.navigation a:hover, 
+.navigation a.active {
+    background:#003329;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px 15px;
+}
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#004b3c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content a:hover {background-color:#00725b;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#003329;}
+   .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
